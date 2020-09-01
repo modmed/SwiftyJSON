@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "SwiftyJSON",
     platforms: [
-        .macOS(.v10_10), .iOS(.v8), .tvOS(.v9), .watchOS(.v3)
+        .macOS(.v10_10), .iOS(.v9), .tvOS(.v9), .watchOS(.v3)
     ],
     products: [
         .library(name: "SwiftyJSON", targets: ["SwiftyJSON"])
